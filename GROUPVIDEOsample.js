@@ -102,9 +102,3 @@ function execute(loc) {
 
 	document.getElementById('videoName').src = "http://www.youtube.com/embed/" + str;
 };
-
-
-//on page load, read from database
-window.onload = function() {
-	var database = new Database1();
-};
